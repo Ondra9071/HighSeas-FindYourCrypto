@@ -1,6 +1,6 @@
 # HighSeas: FindYourCrypto🔍
 Web app for searching over 1000 cryptocurrencies available on the market. <br>
-Made with React, Typescript and TailwindCSS, fetching [CoinGecko API](https://www.coingecko.com/en/api).
+Made with React, Typescript, TailwindCSS and ExpressJS, fetching [CoinGecko API](https://www.coingecko.com/en/api).
 
 **Demo:** [here](https://ondrejpacovsky.cz/demo/highseas/FindYourCrypto/index.html) <br>
 **Note:** App is not done and it can have a lot of bugs, also keep in mind that it fetches only some currencies, not all of them.
