@@ -15,7 +15,7 @@ Made with React, Typescript, TailwindCSS and ExpressJS, fetching [CoinGecko API]
 # Setup 
 # 1) Clone repo
 ```
-git clone https://github.com/Ondra9071/HighSeas-Stopwatch.git
+git clone https://github.com/Ondra9071/HighSeas-FindYourCrypto.git
 ```
 ## 2) Install libraries & init tailwind
 ```
