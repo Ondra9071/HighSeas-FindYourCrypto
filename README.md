@@ -13,7 +13,11 @@ Made with React, Typescript, TailwindCSS and ExpressJS, fetching [CoinGecko API]
 - LetsEncrypt cert (if using SSL, check configuration in api.js)
 
 # Setup 
-## 1) Install libraries & init tailwind
+# 1) Clone repo
+```
+git clone https://github.com/Ondra9071/HighSeas-Stopwatch.git
+```
+## 2) Install libraries & init tailwind
 ```
 cd ./HighSeas-FindYourCrypto
 npm i
@@ -22,7 +26,7 @@ npm i
 npm install -D tailwindcss
 npx tailwindcss init
 ```
-## 2) Configuration
+## 3) Configuration
 a) /src/App.tsx `(Line 22)`
 ```
 const API_URL = 'https://yourdomain.com:1414/api/getData'; // api url (change by your needs)
@@ -33,11 +37,11 @@ const USE_SSL = true // set to false if u want to run with http (it may not work
 const SSL_DOMAIN = "yourdomain.com" // domain for api, need for ssl only (you can skip this if running http)
 ```
 
-## 3) Start API
+## 4) Start API
 ```
 node api.js
 ```
-## 4) Start web app
+## 5) Start web app
 ```
 cd ..
 npm start
